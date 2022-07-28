@@ -23,7 +23,7 @@
 
         .header-image {
 
-            filter: brightness(30%);
+            filter: brightness(20%);
 
         }
     </style>
@@ -36,13 +36,14 @@
 
 <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-        <a class="navbar-brand fw-bolder fs-2 ps-5" href="#"><i class="fa-solid fa-graduation-cap px-3"></i>EDU<span
+        <a class="navbar-brand fw-bolder fs-2 ps-5" href="#"><i
+                class="fa-solid fa-graduation-cap text-success px-3 fw-bolder"></i>EDU<span
                 class="text-success">MIG</span></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarText">
+        <div class="collapse navbar-collapse justify-content-center " id="navbarText">
 
             <span class="navbar-text">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
@@ -70,13 +71,13 @@
 
                 </ul>
             </span>
-        </div>
 
+        </div>
         <div class="pe-5">
-            <div class="btn btn-outline-success">Register</div>
+            <div class="btn btn-outline-success d-sm-none d-md-block 	d-none d-sm-block">Register</div>
         </div>
-
     </div>
+
 </nav>
 
 
@@ -86,7 +87,7 @@
 <div class="container">
 
     <!-- Slide Section Starts Here-->
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <!-- <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
@@ -99,28 +100,34 @@
             <div class="carousel-item active">
                 <img src="images/harvard.png" class="d-block w-100 rounded-5 opacity-75 header-image mt-5 " alt="...">
                 <div class=" position-relative">
-                    <div
-                        class=" carousel-caption  d-md-block header-caption d-flex flex-column flex-nowrap  justify-content-center">
-                        <h1>First slide label</h1>
-                        <p>Some representative placeholder content for the first slide.</p>
-                        <div class="btn btn-success">Register Now</div>
+
+                    <div class=" carousel-caption">
+                        <img src="images/uni/harvard-logo.png" alt="" class="p-5 ">
+                        <h1 class="text-center fs-1">Prepare for Ivy League Institutes!</h1>
+                        <p class="fs-3">With world class Guidance, and mentorship!</p>
+                        <div class="btn btn-success m-5">Register Now</div>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="images/mit.png" class="d-block w-100 rounded-5 opacity-75 header-image mt-5" alt="...">
-                <div class="carousel-caption d-md-block  header-caption">
-                    <h1>Second slide label</h1>
-                    <p>Some representative placeholder content for the second slide.</p>
-                    <div class="btn btn-success">Register Now</div>
+                <div class="position-relative">
+
+                    <div class="carousel-caption">
+                        <img src="images/uni/yale-logo.png" alt="" class="w-25 pb-5">
+                        <h1 class="text-center">Ace your SAT Results With Guideline!</h1>
+                        <p class="fs-3 pb-3">1550+ Score Guranteed Strategy and Logics!</p>
+                        <div class="btn btn-success m-5">Register Now</div>
+                    </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="images/princeton.png" class="d-block w-100 rounded-5 opacity-75 header-image mt-5" alt=" ...">
-                <div class="carousel-caption d-md-block header-caption">
-                    <h1>Third slide label</h1>
-                    <p>Some representative placeholder content for the third slide.</p>
-                    <div class="btn btn-success">Register Now</div>
+                <div class="carousel-caption ">
+                    <img src="images/uni/mit-logo.png" alt="" class="w-25 pb-5">
+                    <h1>Admission is our First Priority!</h1>
+                    <p class="fs-5 pb-5">Contact us: faizzaidan6546@gmail.com</p>
+                    <div class="btn btn-success mb-5">Register Now</div>
                 </div>
             </div>
         </div>
@@ -134,7 +141,74 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
+    </div> -->
+
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <div class="carousel-inner ">
+
+            <div class="carousel-item active">
+                <div
+                    class="text-light position-absolute d-flex flex-column text-center col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center top-50">
+                    <h1 class="fw-bolder">
+                        Prepare for Ivy League Institutes!
+                    </h1>
+                    <p class="  ">
+                        With world class Guidance, and mentorship!
+                    </p>
+                    <div class="">
+                        <div class="btn btn-success p-3 m-5">Register Now</div>
+                    </div>
+                </div>
+
+                <img src="images/harvard.png" class="d-block w-100 mh-100 rounded-5" alt="...">
+            </div>
+            <div class="carousel-item active">
+                <div
+                    class="text-light position-absolute d-flex flex-column text-center col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center top-50">
+                    <h1 class="fw-bolder">
+                        Prepare for Ivy League Institutes!
+                    </h1>
+                    <p class="  ">
+                        With world class Guidance, and mentorship!
+                    </p>
+                    <div class="">
+                        <div class="btn btn-success p-3 m-5">Register Now</div>
+                    </div>
+                </div>
+
+                <img src="images/mit.png" class="d-block w-100 rounded-5" alt="...">
+            </div>
+            <div class="d-block w-100 carousel-item active">
+                <div
+                    class=" text-light position-absolute d-flex flex-column text-center col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center top-50">
+                    <h1 class="fw-bolder">
+                        Prepare for Ivy League Institutes!
+                    </h1>
+                    <p class="  ">
+                        With world class Guidance, and mentorship!
+                    </p>
+                    <div class="">
+                        <div class="btn btn-success p-3 m-5">Register Now</div>
+                    </div>
+                </div>
+
+                <img src="images/princeton.png" class="d-block w-100 rounded-5" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
+
+
+
     <!--Slide Ends Here-->
 
 
@@ -155,7 +229,7 @@
                 <div class="row g-0">
                     <div class="col-md-4">
                         <img src="images/uni/harvard-logo.png"
-                            class="img-fluid rounded-start d-flex justify-content-center align-items-center w-100 h-100 px-2"
+                            class="img-fluid  rounded-start d-flex justify-content-center align-items-center w-100 h-100 px-2 .d-none .d-sm-block .d-md-none "
                             alt="...">
                     </div>
                     <div class="col-md-8">
@@ -274,19 +348,18 @@
 
     <Section class="Ready-to-join-section container mb-5">
 
-        <div class="bg-success d-flex  p-5 mb-5 ">
+        <div class="bg-success d-flex flex-column flex-lg-row p-5 mb-5 text-md-center text-sm-center text-lg-start">
 
-            <div
-                class="descriptions col-lg-8 col-md-12 d-flex flex-column d-md-flex  justify-content-center align-content-center">
+            <div class="descriptions">
 
                 <h1 class="text-light">Ready To Join?</h1>
-                <p class="text-light">Join our forum with registration. It will give you access, facilities, guidelines,
+                <p class="text-light ">Join our forum with registration. It will give you access,
+                    facilities, guidelines,
                     routines, timelines, statistics, to get an admission at your dream university</p>
             </div>
-            <div class="d-flex justify-content-center m-5 col-lg-4 col-md-1 ">
+            <div class=" m-5 ">
 
-                <button type="button" class="btn btn-light d-md-table-row d-sm-table-row d-md-block  d-lg-block"
-                    data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <button type="button" class="btn btn-light " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     Registration
                 </button>
 
@@ -428,7 +501,8 @@
 
 <footer class="footer bg-success p-5">
 
-    <h1 class="footer-header text-light d-flex justify-content-center align-items-center">EDUMIG</h1>
+    <h1 class="footer-header text-light d-flex justify-content-center align-items-center text-white fw-bold">EDU<span
+            class="text-dark">MIG</span></h1>
 
     <div class="footer-link-division d-flex flex-column flex-lg-row justify-content-center align-items-center mt-3">
 
