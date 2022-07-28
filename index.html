@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3c00114379.js" crossorigin="anonymous"></script>
     <!-- CSS only -->
-    <link rel="shortcut icon" href="kite.png" src="" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.png" src="" type="image/x-icon">
     <style>
         * {
             font-family: 'Poppins', sans-serif;
@@ -277,17 +277,40 @@
 
     <Section class="Ready-to-join-section container mb-5">
 
-        <div class="bg-success d-flex p-5">
+        <div class="bg-success d-flex p-5 mb-5">
 
             <div class="descriptions col-lg-8 col-md-12 d-flex flex-column justify-content-center align-content-center">
 
                 <h1 class="text-light">Ready To Join?</h1>
-                <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ea nostrum
-                    accusamus praesentium?
-                    Accusantium.</p>
+                <p class="text-light">Join our forum with registration. It will give you access, facilities, guidelines,
+                    routines, timelines, statistics, to get an admission at your dream university</p>
             </div>
             <div class="d-flex justify-content-center m-5 col-lg-4 col-md-1">
-                <a href="#" class="btn btn-light d-flex justify-content-center p-3">Register Now</a>
+
+                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Registration
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">Registration will Start Tomorrow</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Please Come Back Tomorrow.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Understood</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -298,9 +321,9 @@
     <div class="question-division">
 
         <h1 class="d-flex text-center justify-content-center mt-5">Frequently Asked Question</h1>
-        <p class="d-flex text-center justify-content-center mt-5 mb-5 flex-wrap">These are known as the best educational
-            institution around the whole world which provides highest standard of studies and research, <br> facilities,
-            communities and alumni. </p>
+        <p class="d-flex text-center justify-content-center mt-1 mb-5 flex-wrap">These are the question that has been
+            taken from the students who studies Front-Development Course.
+        </p>
 
     </div>
 
@@ -312,16 +335,15 @@
                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                     data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
                     aria-controls="panelsStayOpen-collapseOne">
-                    Which is the best university in the world?
+                    What's the difference between Flexbox and Grid?
                 </button>
             </h2>
             <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
                 aria-labelledby="panelsStayOpen-headingOne">
                 <div class="accordion-body">
-                    <strong>Harvard Is the best University amongst all other university around the world.</strong> Named
-                    for its first benefactor, the Puritan
-                    clergyman John Harvard, it is the oldest institution of higher learning in the United States and
-                    among the most prestigious in the world.
+                    The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was
+                    designed for layout in one dimension - either a row or a column. Grid was designed for
+                    two-dimensional layout - rows, and columns at the same time.
                 </div>
             </div>
         </div>
@@ -330,18 +352,15 @@
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                     aria-controls="panelsStayOpen-collapseTwo">
-                    Accordion Item #2
+                    What's the difference between bootstrap and Tailwind?
                 </button>
             </h2>
             <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
                 aria-labelledby="panelsStayOpen-headingTwo">
                 <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-                    collapse plugin adds the appropriate classes that we use to style each element. These classes
-                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
-                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
-                    overflow.
+                    Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite
+                    UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and
+                    uniqueness. Sites created using Bootstrap follow the generic pattern that makes them look identical
                 </div>
             </div>
         </div>
@@ -350,22 +369,47 @@
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                     aria-controls="panelsStayOpen-collapseThree">
-                    Accordion Item #3
+                    What's CSS Box Model?
                 </button>
             </h2>
             <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
                 aria-labelledby="panelsStayOpen-headingThree">
                 <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                    collapse plugin adds the appropriate classes that we use to style each element. These classes
-                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
-                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
-                    overflow.
+                    In web development, the CSS box model refers to how HTML elements are modeled in browser engines and
+                    how the dimensions of those HTML elements are derived from CSS properties. It is a fundamental
+                    concept for the composition of HTML webpages.
                 </div>
             </div>
+
+        </div>
+        <div class="accordion-item m-2">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFour">
+                    What's Semantic Tag?
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingFour">
+                <div class="accordion-body">
+                    The HTML semantics refers to the tags that provide meaning to an HTML page rather than just
+                    presentation. It makes HTML more comprehensible by better defining the different sections and layout
+                    of web pages.
+                </div>
+            </div>
+
         </div>
     </div>
+
+    <div class="brand-division">
+
+        <h1 class="d-flex text-center justify-content-center mt-5 d-sm-none d-md-block d-md-none d-lg-block"><b>Our
+                Corporate Brands</b></h1>
+        <img src="images/brands.png" alt="" class="w-100 mt-5 mb-5 d-sm-none d-md-block d-md-none d-lg-block">
+
+    </div>
+
 
 </div>
 
